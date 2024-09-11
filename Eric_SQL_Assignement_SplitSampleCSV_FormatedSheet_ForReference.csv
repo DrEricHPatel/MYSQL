@@ -1,0 +1,11 @@
+Company Table Data,,,,,,,Employee Table Data ,,,,,,,,,
+CompanyID,CompanyName,Street,City,State,Zip,,EmployeeID,FirstName,LastName,Salary,HireDate,JobTitle,Email,Phone,,
+1,"Urban Outfitters, Inc.",123 Market St,Philadelphia,PA,19107,,1,Lesley,Bland,75000,2018-06-12,Manager,lesley.bland@example.com,215-555-1234,,
+2,Toll Brothers,456 Main St,Horsham,PA,19044,,2,Jack,Lee,65000,2017-04-05,Sales Rep,jack.lee@example.com,215-555-5678,,
+3,Target Corporation,789 Broad St,Minneapolis,MN,55402,,3,Maria,Smith,82000,2015-08-19,VP of Marketing,maria.smith@example.com,312-555-9012,,
+,,,,,,,,,,,,,,,,
+Contact Table Data ,,,,,,,,,,,,ContactEmployee Table Data ,,,,
+ContactID,CompanyID,FirstName,LastName,Street,City,State,Zip,IsMain,Email,Phone,,ContactEmployeeID,ContactID,EmployeeID,ContactDate,Description
+1,2,Dianne,Connor,123 Elm St,Horsham,PA,19044,TRUE,dianne.connor@example.com,215-555-1010,,1,1,2,2023-08-15,Sales follow-up with Dianne Connor
+2,2,John,Doe,789 Oak St,Horsham,PA,19044,FALSE,john.doe@example.com,215-555-2020,,2,2,1,2023-09-01,Meeting with John Doe regarding Toll Brothers partnership
+3,1,Amanda,Green,456 Pine St,Philadelphia,PA,19107,TRUE,amanda.green@example.com,215-555-3030,,3,3,3,2023-07-10,Urban Outfitters marketing strategy discussion
